@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../src/css/style.css">
     <title>Contato</title>
+    <script src="./contato.html" defer></script>
 </head>
 <body>
     <h1>Contato</h1>
@@ -26,18 +27,21 @@
                 <article class="control">
                     <label for="nome">Nome</label>
                     <input type="text" name="nome" id="nome">
+                    <i class="error"> <img src="../src/assets/erro.svg" alt="eero"></i>
                     <small>Erro</small>
                 </article>
 
                 <article class="control">
                     <label for="email">Email</label>
-                    <input type="text" name="email" id="email">
+                    <input type="email" name="email" id="email">
+                    <i class="error"> <img src="../src/assets/erro.svg" alt="eero"></i>
                     <small>Erro</small>
                 </article>
 
                 <article class="control">
                     <label for="descricao">Descrição</label>
-                    <textarea type="text" name="nome" id="nome"></textarea>
+                    <textarea type="text" name="nome" id="descricao" required></textarea>
+                    <i class="error"> <img src="../src/assets/erro.svg" alt="eero"></i>
                     <small>Erro</small>
                 </article>
 
