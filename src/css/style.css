@@ -55,7 +55,6 @@ header #logo{
     padding: 50px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #555;
-    width: ;
     max-width: 600px;
 }
 
@@ -69,3 +68,11 @@ header #logo{
     margin-bottom: 20px;
 }
 
+
+
+footer{
+    margin-top: 30vh;
+    display: flex;
+    justify-content: center;
+
+}
